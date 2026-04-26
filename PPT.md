@@ -3,7 +3,6 @@
 ### Slide 1: Judul & Identitas
 - **Judul Utama:** Analisis Komparatif Algoritma SVM dan KNN pada Klasifikasi Wine.
 - **Sub-judul:** Tugas Besar Machine Learning - Supervised Learning.
-- **Identitas:** nama kelompok.
 
 ### Slide 2: Pembagian Tugas (Role)
 - nama anggota kelompok
