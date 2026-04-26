@@ -3,11 +3,10 @@
 ### Slide 1: Judul & Identitas
 - **Judul Utama:** Analisis Komparatif Algoritma SVM dan KNN pada Klasifikasi Wine.
 - **Sub-judul:** Tugas Besar Machine Learning - Supervised Learning.
-- **Identitas:** [Isi Nama Anda] & [Isi Nama Rekan Kelompok].
+- **Identitas:** nama kelompok.
 
 ### Slide 2: Pembagian Tugas (Role)
-- **Architect & Lead Dev:** [Nama Anda] (Merancang sistem, preprocessing data, dan validasi algoritma).
-- **Presentation & Documentation:** [Nama Rekan] (Penyusunan materi presentasi dan dokumentasi hasil).
+- nama anggota kelompok
 
 ### Slide 3: Tujuan Proyek
 - Mengimplementasikan algoritma Supervised Learning untuk klasifikasi multikelas.
