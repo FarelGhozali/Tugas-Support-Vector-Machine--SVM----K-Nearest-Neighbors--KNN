@@ -24,6 +24,7 @@
 1. **Pembersihan Data:** Memisahkan fitur dan label kelas.
 2. **Data Splitting:** 80% data latih, 20% data uji.
 3. **Standardisasi:** Menggunakan `StandardScaler` agar fitur dengan satuan berbeda (misal: Alkohol vs Magnesium) memiliki skala yang sama. *Sangat krusial bagi KNN dan SVM.*
+4. **Implementasi Kode:** Seluruh pipeline dijalankan melalui file `main.py`.
 
 ### Slide 6: Hasil Perbandingan (Metrik)
 
