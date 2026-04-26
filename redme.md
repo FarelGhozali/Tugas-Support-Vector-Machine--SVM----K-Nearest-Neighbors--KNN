@@ -3,10 +3,10 @@
 Proyek ini bertujuan untuk membandingkan performa dua algoritma klasifikasi populer, **Support Vector Machine (SVM)** dan **K-Nearest Neighbors (KNN)**, menggunakan dataset klasifikasi Wine (Wine Recognition Dataset).
 
 ## 📂 Struktur Repositori
-- `script.py`: Kode utama implementasi model, evaluasi, dan visualisasi.
+- `main.py`: Kode utama implementasi model, evaluasi, dan visualisasi.
 - `requirements.txt`: Daftar dependensi library Python yang dibutuhkan.
 - `visualisasi_wine.png`: Output grafik confusion matrix hasil eksekusi program.
-- `PPT_OUTLINE.md`: Panduan konten untuk pembuatan slide presentasi.
+- `PPT.md`: Panduan konten untuk pembuatan slide presentasi.
 
 ## 🚀 Cara Menjalankan Program
 
@@ -24,7 +24,7 @@ Ikuti langkah-langkah berikut untuk menjalankan simulasi di perangkat lokal:
    > pip install -r requirements.txt
 
 5. **Jalankan Skrip**:
-   > python script.py
+   > python main.py
 
 6. **Cek Hasil**: Program akan menampilkan akurasi di terminal dan menyimpan file `visualisasi_wine.png` secara otomatis.
 
