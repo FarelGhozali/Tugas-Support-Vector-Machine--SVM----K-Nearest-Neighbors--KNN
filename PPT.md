@@ -1,8 +1,3 @@
----
-
-### 2. File: `PPT_OUTLINE.md`
-
-```markdown
 # Konten Presentasi (Panduan Slide)
 
 ### Slide 1: Judul & Identitas
@@ -21,14 +16,15 @@
 
 ### Slide 4: Dataset: Wine Recognition
 - **Sumber Data:** UCI Machine Learning Repository (`sklearn.datasets.load_wine`).
-- **Karakteristik:** - 178 sampel data analisis kimiawi wine.
+- **Karakteristik:**
+  - 178 sampel data analisis kimiawi wine.
   - 13 fitur numerik (Alkohol, Magnesium, Fenol, dll).
-  - 3 Kelas Target (Kultivar Wine).
+  - 3 kelas target (Kultivar Wine).
 - **Link:** https://archive.ics.uci.edu/dataset/109/wine
 
 ### Slide 5: Metodologi & Preprocessing
 1. **Pembersihan Data:** Memisahkan fitur dan label kelas.
-2. **Data Splitting:** 80% Data Latih, 20% Data Uji.
+2. **Data Splitting:** 80% data latih, 20% data uji.
 3. **Standardisasi:** Menggunakan `StandardScaler` agar fitur dengan satuan berbeda (misal: Alkohol vs Magnesium) memiliki skala yang sama. *Sangat krusial bagi KNN dan SVM.*
 
 ### Slide 6: Hasil Perbandingan (Metrik)
@@ -37,12 +33,12 @@
 | :--- | :--- | :--- |
 | **Akurasi** | **97.22%** | **94.44%** |
 | **Jumlah Salah Tebak** | 1 Sampel | 2 Sampel |
-| **Keunggulan** | Efektif pada dimensi tinggi | Sederhana & Tanpa fase latih berat |
+| **Keunggulan** | Efektif pada dimensi tinggi | Sederhana & tanpa fase latih berat |
 
 ### Slide 7: Visualisasi (Confusion Matrix)
 - *Instruksi untuk rekan:* Masukkan gambar `visualisasi_wine.png` ke sini.
-- **Analisis:** Matriks menunjukkan bahwa SVM hampir sempurna dalam mengklasifikasikan semua kelas, sedangkan KNN sedikit kesulitan membedakan Kelas 1 dan Kelas 0/2.
+- **Analisis:** Matriks menunjukkan bahwa SVM hampir sempurna dalam mengklasifikasikan semua kelas, sedangkan KNN sedikit kesulitan membedakan kelas 1 dan kelas 0/2.
 
 ### Slide 8: Kesimpulan
 - Untuk dataset Wine, **SVM lebih unggul** karena mampu menciptakan pemisah (hyperplane) yang lebih baik di ruang dimensi tinggi.
-- KNN tetap kompetitif namun sangat bergantung pada pemilihan nilai 'k' dan skala data.
+- KNN tetap kompetitif namun sangat bergantung pada pemilihan nilai `k` dan skala data.
